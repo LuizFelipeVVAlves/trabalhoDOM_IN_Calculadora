@@ -14,7 +14,7 @@ function add_nota(){
     }
     if(isNaN(msg) == false){
         
-        if(msg >= "0"){
+        if(msg >= "0" && msg <= "10"){
             sec.classList.add('has-content');
             let div = document.createElement("div")
             let text = document.createElement("p")
